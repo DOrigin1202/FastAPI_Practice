@@ -1,0 +1,28 @@
+# .gitignore
+# 환경변수 (절대 업로드 금지!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 가상환경
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# DB 파일 (SQLite 사용 시)
+*.db
+*.sqlite
+*.sqlite3
+
+# 기타
+.DS_Store
+*.log
